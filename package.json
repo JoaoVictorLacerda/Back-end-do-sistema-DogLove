@@ -1,0 +1,48 @@
+{
+  "name": "doglove-backend",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.1.0"
+  },
+  "description": "API-REST do sistema DogLove",
+  "main": "./bin/Server.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon bin/Server.js",
+    "start": "node bin/Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stef325/DogLove-backEnd.git"
+  },
+  "keywords": [
+    "Dog",
+    "Love",
+    "Match"
+  ],
+  "author": "Joao Victor Lacerda de Queiroz, Filipe de Oliveira Barbosa, Karlos Macedo Tavares de Almeida, Bruna Stefany da Silva Reinaldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stef325/DogLove-backEnd/issues"
+  },
+  "homepage": "https://github.com/stef325/DogLove-backEnd#readme",
+  "devDependencies": {
+    "jest": "^27.4.4",
+    "nodemon": "^2.0.4",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.0",
+    "uuid": "^8.3.2",
+    "vcsl": "^1.0.1"
+  }
+}
